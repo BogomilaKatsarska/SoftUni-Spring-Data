@@ -24,7 +24,12 @@
       <li>ResultSet - retrieved data(set of table rows)</li>
     </ul>
   </li>
-  <li> ORM Fundamentals</li>
+  <li> ORM Fundamentals
+    <ul>
+      <li>@Retention - annotation - how long annotations with the annotated type are to be retained - SOURCE, CLASS, RUNTIME</li>
+      <li>@Target - annotation - indicates the contexts in which the annotation interface is appicable - i.e.: METHOD, FIELD, TYPE==class, interface, enum or record, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE, ANNOTATION_TYPE..</li>
+    </ul>
+  </li>
   <li> Intro to Hibernate</li>
   <li> Hibernate Code First</li>
   <li> Spring Data Intro</li>
